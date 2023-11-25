@@ -28,6 +28,38 @@
   color: #61dafb;
 }
 
+
+body {
+  overflow-y: scroll; /* This ensures that the layout doesn't shift */
+  scrollbar-width: none; /* For Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+
+.font-source-code-pro {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.bg-window {
+  background-color: rgb(235, 235, 235, 0.7); /* Fully opaque */
+}
+
+.bg-window-opacity {
+  background-color: rgba(235, 235, 235, 0.4); /* Semi-transparent */
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.cursor-blink {
+  animation: blink 1s step-start infinite;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
