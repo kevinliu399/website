@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kevinliu399.github.io/static/css/main.f0318789.css",
-    "main.js": "/kevinliu399.github.io/static/js/main.9058e5b3.js",
-    "static/js/787.62022dda.chunk.js": "/kevinliu399.github.io/static/js/787.62022dda.chunk.js",
-    "static/media/park.jpg": "/kevinliu399.github.io/static/media/park.8dc042dc4d3bd91ab60c.jpg",
-    "index.html": "/kevinliu399.github.io/index.html",
-    "main.f0318789.css.map": "/kevinliu399.github.io/static/css/main.f0318789.css.map",
-    "main.9058e5b3.js.map": "/kevinliu399.github.io/static/js/main.9058e5b3.js.map",
-    "787.62022dda.chunk.js.map": "/kevinliu399.github.io/static/js/787.62022dda.chunk.js.map"
+    "main.css": "/website/static/css/main.f0318789.css",
+    "main.js": "/website/static/js/main.3ee96f6b.js",
+    "static/js/787.62022dda.chunk.js": "/website/static/js/787.62022dda.chunk.js",
+    "static/media/park.jpg": "/website/static/media/park.8dc042dc4d3bd91ab60c.jpg",
+    "index.html": "/website/index.html",
+    "main.f0318789.css.map": "/website/static/css/main.f0318789.css.map",
+    "main.3ee96f6b.js.map": "/website/static/js/main.3ee96f6b.js.map",
+    "787.62022dda.chunk.js.map": "/website/static/js/787.62022dda.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f0318789.css",
-    "static/js/main.9058e5b3.js"
+    "static/js/main.3ee96f6b.js"
   ]
 }
