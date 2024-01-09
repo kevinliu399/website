@@ -14,13 +14,13 @@ function TechStack() {
 
     return (
         <div className="tech-stack-section py-10 bg-neutral-200">
-            <h2 className="text-4xl font-bold mb-8 text-center uppercase">Current Tech Stack</h2>
-            <div className="flex items-center justify-center">
-                <div className="bg-mainC py-10 rounded-full w-1/2">
-                    <div className="flex items-center justify-center gap-16 mt-5">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 lg:mb-8 text-center uppercase">Current Tech Stack</h2>
+            <div className="flex items-center justify-center px-4 lg:px-0">
+                <div className="bg-mainC py-6 md:py-8 lg:py-10 rounded-2xl w-full md:w-3/4 lg:w-1/2">
+                    <div className="flex flex-wrap items-center justify-center gap-6 md:gap-8 lg:gap-16 m-5">
                         {techs.map((tech, index) => (
                             <div key={index} className="relative group">
-                                    <img src={tech.logo} className="h-12 w-12 transform hover:scale-110 motion-reduce:transform-none duration-100" />
+                                <img src={tech.logo} alt={tech.name} className="h-8 md:h-10 lg:h-12 w-8 md:w-10 lg:w-12 transform hover:scale-110 motion-reduce:transform-none duration-100" />
                             </div>
                         ))}
                     </div>

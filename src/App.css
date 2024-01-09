@@ -48,12 +48,12 @@
 
 
 body {
-  overflow-y: scroll; /* This ensures that the layout doesn't shift */
-  scrollbar-width: none; /* For Firefox */
+  overflow-y: scroll;
+  scrollbar-width: none;
 }
 
 body::-webkit-scrollbar {
-  display: none; /* For Chrome, Safari, and Opera */
+  display: none; 
 }
 
 
