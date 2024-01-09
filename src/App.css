@@ -7,6 +7,24 @@
   pointer-events: none;
 }
 
+.nav-dot {
+  position: relative;
+  cursor: pointer;
+}
+
+.nav-dot:hover .nav-label {
+  display: block;
+  position: absolute;
+  right: 100%;
+  margin-right: 10px;
+  white-space: nowrap;
+  background-color: #f3f3f3;
+  color: black;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -43,13 +61,7 @@ body::-webkit-scrollbar {
   font-family: 'Source Code Pro', monospace;
 }
 
-.bg-window {
-  background-color: rgb(235, 235, 235, 0.7); /* Fully opaque */
-}
 
-.bg-window-opacity {
-  background-color: rgba(235, 235, 235, 0.4); /* Semi-transparent */
-}
 
 @keyframes blink {
   0%, 100% { opacity: 1; }
