@@ -3,7 +3,7 @@ import parkImage from './pictures/park.jpg';
 import './welcome.css'; // Import the CSS file
 
 function Welcome() {
-    const [title, setTitle] = useState("McGill Student");
+    const [title, setTitle] = useState("McGill Student 🍁");
     const [fade, setFade] = useState(true);
     const titles = ["McGill Student 🍁", "Computer Science 👨🏻‍💻", "Tech Enthusiast 🤖"];
 
