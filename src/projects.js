@@ -3,6 +3,7 @@ import Linkup from './pictures/Linkup.png';
 import MagicChalk from './pictures/MagicChalk.png'; 
 import AuthentInk from './pictures/AuthentInk.png'; 
 import CourseSchedule from './pictures/CourseSchedule.png'; 
+import JPNHandwriting from './pictures/JPN-Handwriting.png';
 
 
 function Projects() {
@@ -13,6 +14,43 @@ function Projects() {
             <div className="flex items-center justify-center w-full px-4">
 
                 <div className="flex flex-col gap-6 md:gap-10 w-full md:w-3/4 lg:w-2/3 xl:w-1/2 mb-14">
+
+                    <div className="bg-white shadow-xl rounded-2xl p-4 md:p-6 lg:p-8 snap-center">
+                            <div className="flex flex-col md:flex-row gap-4">
+                                <div className="w-full md:w-1/2 lg:w-1/3 items-center justify-center flex">
+                                    <img src={JPNHandwriting} alt="Project Image" className="w-full h-auto object-contain rounded-lg" />
+                                </div>
+                                <div className="flex flex-col justify-between w-full">
+                                    <div>
+
+                                        <div className="flex justify-between items-center">
+                                            <h2 className="text-2xl font-semibold mb-8">JPN Handwriting - IN PROGRESS</h2>
+                                            <div>
+                                                <a onClick={() => window.open('https://github.com/Rampex1/JapaneseWriting')} className="text-blue-600 hover:underline cursor-pointer">GitHub Repo</a>
+                                            </div>
+                                        </div>
+
+                                        <p className="mb-4">
+                                        - Website that allows users to practice their Japanese handwriting skills by providing feedback with a CNN model
+                                        <br /> - Custom user accounts, with friend system and leaderboard
+                                        <br /> - Personalized tracking of user progress and statistics 
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <div className="flex flex-wrap gap-2 mb-4">
+
+                                            {/* Tags */}
+                                            <span className="bg-yellow-200 text-yellow-800 text-sm font-semibold mr-2 px-2.5 py-0.5 rounded">Python</span>
+                                            <span className="bg-green-200 text-green-800 text-sm font-semibold mr-2 px-2.5 py-0.5 rounded">React.js</span>
+                                            <span className="bg-purple-200 text-purple-800 text-sm font-semibold mr-2 px-2.5 py-0.5 rounded">Spring</span>
+                                            <span className="bg-red-200 text-red-800 text-sm font-semibold mr-2 px-2.5 py-0.5 rounded">PostgreSQL</span>
+                                            <span className="bg-stone-200 text-stone-800 text-sm font-semibold mr-2 px-2.5 py-0.5 rounded">Cloud</span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
                 
                     <div className="bg-white shadow-xl rounded-2xl p-4 md:p-6 lg:p-8 snap-center">
